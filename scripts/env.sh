@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+source ~/miniconda3/etc/profile.d/conda.sh
 conda activate deepfacelab
 cd ..
-export DFL_PYTHON="python3.7"
+export DFL_PYTHON="python3.9"
 export DFL_WORKSPACE="workspace/"
 
 if [ ! -d "$DFL_WORKSPACE" ]; then
